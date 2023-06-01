@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="icons8-portfolio-48.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hi ,I am&nbsp;<span>Shruti</span>&nbsp;Raj<br><br></h1>
+            <h5>Ambitious to kick start the career with a <br>globally recognized organization which will<br> give me global exposure to enhance my skills and <br>knowledge for mutual benefits of the organization.<br></h5>
+        </div>
+        </div>
+    </div>
+    <!-------------------------- about  ----------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/shruti img.jpg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>As a beginner, I am eager to learn, hardworking, and committed to developing my skills to contribute to the success of the Company</p>
+            
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>JSE</span><br>Java Standard Edition</li>
+                    <li><span>JEE</span><br>Jakarta(formerly Java)Enterprise Edition</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>JAVA CORE TECHNOLOGY</span><br>17 JUN 2022-17 AUG 2022</li>
+                    <li><span>JAVA ADVANCE TECHNOLOGY</span><br>12 NOV 2022-22 JAN 2023</li>
+                    <li><span>WEB DESIGING TECHNOLOGY</span><br>13 JUN 2022-28 JUL 2022</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2020-2023</span><br>GALGOTIAS UNIVERSITY | BCA
+                        9.3 CGPA</li>
+                    <li><span>2017-2018</span><br>SCIENCE MATHEMATICS
+                        XII | 2018
+                        Marks - 71.00%,</li>
+                    <li><span>2014-2016</span><br>CBSE(Blue Sky Public School)
+                        X | 2016
+                        Marks – 9 CGPA</li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------------- services ---------------------------------------  -->
+<div id="services">
+<div class="container">
+    <h1 class="sub-tittle">My Services</h1>
+    <div class="services-list">
+       <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Front-end developer</h2>
+        <p>A front-end developer is a type of web developer who specializes in designing and implementing the user interface (UI) and user experience (UX) of a website or web application.</p>
+        <a href="#">Learn more</a>   
+    </div>
+    <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Back-end developer</h2>
+        <p>Back-end development involves the creation of server-side applications and software that powers the functionality of websites and applications. Back-end developers typically work with programming languages such as Java, Python, Ruby, PHP, and .NET. They are responsible for building the database, designing the architecture of the application, and creating the APIs that allow the front-end of the application to communicate with the back-end..</p>
+        <a href="#">Learn more</a>   
+    </div>
+    <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>Java Full Stack Developer</h2>
+        <p> Java full-stack developer is a professional who has knowledge and expertise in both front-end and back-end development using Java technologies. A full-stack developer is someone who can work on all aspects of web application development, from the user interface to the server-side logic and database management..</p>
+        <a href="#">Learn more</a>   
+         </div>
+      </div>
+    </div>
+</div>
+<!------------------------------- portfolio------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/taxico.jpg" alt="img1">
+                 <div class="layer">
+                    <h3>Taxico</h3>
+                    <p>Creating resposive Transport Buisness website Using HTML, CSS, and JavaScript,Bootstrap.</p>
+                    <a href="https://github.com/Shruti404/Taxico.git"><i class="fa-solid fa-up-right-from-square"></i>></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/img2.jpg" alt="img2">
+                <div class="layer">
+                    <h3>WebBiz</h3>
+                    <p>Creating resposive Education website Using HTML, CSS, and JavaScript,Bootstrap.</p>
+                    <a href="https://github.com/Shruti404/WebBiz.git"><i class="fa-solid fa-up-right-from-square"></i>></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/smartcane.png" alt="img3">
+                <div class="layer">
+                    <h3>SenseCane</h3>
+                    <p>SenseCane" is a strong and effective branding choice "Smart Blind Stick" which consist of auduino uno It was based on the IOT-based project to help Slum Area people </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i>></a>
+                 </div>
+           
+            </div>
+        </div>
+        <a href="https://github.com/Shruti404?tab=repositories" class="btn">See more</a>
+     </div>
+ </div>
+
+<!----------------------------------- Contact -------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shrutirajmfp404@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>706XXXXXXX</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shruti-raj-4962b3217/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shruti404"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/Shrutiraj002"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <!---------------- Download cv-->
+                <a href="images/shruti resume (2).pdf" download class="btn btn2">Download CV</a>
+            
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @shruti .Made by me&nbsp;<i class="fa-sharp fa-solid fa-heart">&nbsp;</i>Shruti Raj </p>
+      </div>
+    </div>
+
+
+<!----------------- Script----------------------->
+    
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabaname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabaname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyWXT6RgxD6WoTJgXp-OsWzev5NzDFdjY6aCbOGo29E4kMtAeEEFTheX8yZU120zeLN/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+       msg.innerHTML="Message Sent Successfully"
+       setTimeout(function(){
+        msg.innerHTML =""
+       },5000)
+      })
+      form.reset()
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
